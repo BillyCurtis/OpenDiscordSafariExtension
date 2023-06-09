@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Open in Discord",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Displays an Open in Discord alert for sideloaded Discord",
+        "description": "Description of what the extension does."
+    }
+}
