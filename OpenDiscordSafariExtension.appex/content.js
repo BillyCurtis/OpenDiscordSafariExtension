@@ -8,7 +8,7 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 function afterNavigate() {
     var locationArr = window.location.pathname.split("/")
-    if (locationArr.includes("enmityapp")) { // fix for enmity vanity url not working
+    if (locationArr.includes("enmity")) { // fix for enmity vanity url not working
         window.location.href = `com.hammerandchisel.discord://discord.com/invite/rMdzhWUaGT`
     } else if (locationArr.includes("invite") || locationArr.includes("channels")) {
         window.location.href = `com.hammerandchisel.discord://discord.com${window.location.pathname}`
